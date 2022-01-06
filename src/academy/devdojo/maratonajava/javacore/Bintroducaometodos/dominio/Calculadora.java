@@ -38,4 +38,24 @@ public class Calculadora {
         System.out.println(num1);
         System.out.println(num2);
     }
+
+    public void somaArray(int[] numeros) {
+        int soma = 0;
+        // Foreach basicamente criamos uma variavel num, onde ela passara por cada posição do
+        // array Numeros e assume o valor do mesmo.
+
+        for (int num : numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
+    public void somavarArgs(int... numeros) {
+        int soma = 0;
+        for (int num : numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
+

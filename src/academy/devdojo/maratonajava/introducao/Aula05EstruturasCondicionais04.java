@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula05EstruturasCondicionais04 {
     public static void main(String[] args) {
-        // Pagar uma taxa baseadi em quanto vc ganha por ano
+        // Pagar uma taxa baseado em quanto vc ganha por ano
         // 0 a 34,712 paga 9,70%
         // 34,713 a 68,507 paga 37,35%
         // 68,508 pra cima paga 49,50
